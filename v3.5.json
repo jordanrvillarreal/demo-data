@@ -30905,22 +30905,6 @@
   }
 },
 {
-  "model": "users.token",
-  "pk": 2,
-  "fields": {
-    "user": [
-      "admin"
-    ],
-    "created": "2023-03-17T12:24:27.459Z",
-    "expires": null,
-    "last_used": "2023-07-30T16:05:38.292Z",
-    "key": "3C885E32F2AE1E941460",
-    "write_enabled": true,
-    "description": "",
-    "allowed_ips": null
-  }
-},
-{
   "model": "users.objectpermission",
   "pk": 4,
   "fields": {
