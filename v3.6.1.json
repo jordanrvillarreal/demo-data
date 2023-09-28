@@ -1009,10 +1009,18 @@
   },
   {
     "model": "sessions.session",
-    "pk": "90aiuz3e92nlwcv4u0fn3pjsxjsezkqi",
+    "pk": "9n2lt5xyte9mlos4rool2wr3ch5n0myj",
     "fields": {
-      "session_data": ".eJxVjEEKwjAUBe-StZQm_U1Sl15Ab1B-fl5pFCM0KQji3W3BhW5nhnmpkdc6j2vBMqaojorU4ZcFlhvyLjJqeDybXSHXJFzTIzfncIXUC5Z7KmUDp2__N5m5zNuhJxGDYCfdRu96GGvt5IS0s_CaO89d5D62hjTI-Q6aeICzZoqeIIN6fwA31joH:1qjIgB:WEGE4G1cpmEi2TJLlcMLSql34QjEwc9u6H_9ldENbyg",
-      "expire_date": "2023-10-05T12:21:11.983Z"
+      "session_data": ".eJxVjEEKwjAQAP-Ss5SmWWPr0Q_UH4TdZJdEMYUmBUH8uyl40OvMMC_lcKvRbYVXl4I6K1CHX0bo75x3kbnS8ux2xbkmjzUtuZvpxr5eeX2kUhq4fPu_ScQS20H6IJZQNJ7AWLB0NMjjBDgFC1q0jIMNBvRomwhmIA_igYA49CjC6v0BTjw7EQ:1qlqZG:zt-w8XW8PBpTA_J4rQvLS0Nc-HNmvXk8_JtgAarfguE",
+      "expire_date": "2023-10-12T12:56:34.742Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ar3b7zdig9m05omfn04jcsc0klowbtbb",
+    "fields": {
+      "session_data": ".eJxVjEsKwjAQQO-StZRkMv3o0gvoDcpkMkOjmEKTgiDe3RZc6Pa9x3uZkdY6jWuRZUzRnAyawy8LxHfJu8hSw_xsdiW5Jqaa5txcwk24XmV5pFI2cP72f5OJyrQdSCOCAiticKgYQUDZeuvarj1aGFrunVrtEHwvgQYPrvdWOojE4MS8Pz4oOdk:1qlVhR:51fthqteFgEIN7T-lmxTVqZojSoADBdtf7aQlw1lawA",
+      "expire_date": "2023-10-11T14:39:37.348Z"
     }
   },
   {
@@ -1021,14 +1029,6 @@
     "fields": {
       "session_data": ".eJxVjEsKwjAUAO-StZS8Np8Xl15AbxDykieJYgpNCoJ4d1twoduZYV7Ch7VnvzZefEniKJQ4_DIK8c51F5U7zc9hV1x7iaGXuQ5nunHsF14epbUNnL793ySHlreDpOQkxoTGXq100aURjAJOysJkNQRIiqO1JI00E9IYlAOjNQIyI5J4fwAlJDlH:1qfe4s:_zsiu4XaMtV6igphAqicUm3G1P9Dev-FXKitMR8lX04",
       "expire_date": "2023-09-25T10:23:34.538Z"
-    }
-  },
-  {
-    "model": "sessions.session",
-    "pk": "utmksieqdswi4ue98xfivbwtp7fc6688",
-    "fields": {
-      "session_data": ".eJxVjEEKwjAUBe-StZQm_U1Sl15Ab1B-fl5pFCM0KQji3W3BhW5nhnmpkdc6j2vBMqaojorU4ZcFlhvyLjJqeDybXSHXJFzTIzfncIXUC5Z7KmUDp2__N5m5zNuhJxGDYCfdRu96GGvt5IS0s_CaO89d5D62hjTI-Q6aeICzZoqeIIN6fwA31joH:1qjccU:ClDH_7QNT-UoGPH0UVtFKdp_MKWYo3HIDdBSHcLsmX4",
-      "expire_date": "2023-10-06T09:38:42.517Z"
     }
   },
   {
@@ -27847,8 +27847,8 @@
   {
     "model": "auth.user",
     "fields": {
-      "password": "pbkdf2_sha256$600000$hHyWMqcxT0QeDHnqc7iv1T$XwE3CsLziI4NWwo+xPUSo6Ne/msAubByn2FeYSVkB24=",
-      "last_login": "2023-09-22T09:38:42.506Z",
+      "password": "pbkdf2_sha256$600000$gVuht3ifO54t38ZbdpJtc0$8yL5w5qrDDtSit/knQZYp3kk/EdNcRXsGS6gxh69ubI=",
+      "last_login": "2023-09-28T12:56:34.723Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -27877,75 +27877,58 @@
           "id": "36858a61-4c15-4787-84e2-e6e66678d5d5"
         },
         {
-          "h": 7,
-          "w": 4,
+          "h": 4,
+          "w": 6,
           "x": 0,
           "y": 2,
           "id": "a9a726b3-7f20-4834-b467-f91f6c3543ea"
         },
         {
-          "h": 7,
-          "w": 4,
-          "x": 4,
-          "y": 2,
-          "id": "09b3779c-b828-4fd1-9e41-868ffa35bc8e"
-        },
-        {
-          "h": 7,
-          "w": 4,
-          "x": 8,
+          "h": 4,
+          "w": 6,
+          "x": 6,
           "y": 2,
           "id": "9eefad8c-df47-4152-a3dc-852e1491e3b3"
         },
         {
-          "h": 2,
+          "h": 4,
           "w": 12,
           "x": 0,
-          "y": 9,
-          "id": "c4f0dada-4811-4fdb-b22f-5c5818e348d7"
+          "y": 6,
+          "id": "86f776f1-5654-4343-8bb4-79d9cb6b7059"
         }
       ],
       "config": {
-        "09b3779c-b828-4fd1-9e41-868ffa35bc8e": {
-          "class": "extras.NoteWidget",
-          "color": "green",
-          "title": "Already Know NetBox?",
-          "config": {
-            "content": "#Already Know NetBox?\n\nCheck out these advanced features \ud83d\udd25\n\n\ud83c\udf1f **APIs**\n\n- **Learn about the REST and GraphQL APIs**. See this [guide](https://github.com/netboxlabs/guided-trial/blob/develop/Network-Automation/explore-netbox-apis.md) to get started. \n\n\ud83c\udf1f **Provisioning**\n\n-  **Learn about Config Contexts and Templates**. See this [guide](https://github.com/netboxlabs/guided-trial/blob/develop/Network-Automation/explore-provisioning.md) to get started. \n- **View a rendered device configuration**. Search for device *AUSYD01-SW-1* and click on the *Render Config* tab. \n- **Render device configurations via API**. See this [guide](https://github.com/netboxlabs/guided-trial/blob/develop/Network-Automation/render-config-api.md) to get started.\n\n\ud83c\udf1f **Integrations**\n\n- **Work with Remote Data Sources**. Click on *Operations > Data Sources* to get started.\n- **Create a Webhook**. See this [guide](https://github.com/netboxlabs/guided-trial/blob/develop/Network-Automation/add-webhook.md) to get started.\n\n\ud83d\udca1 Pro Tip** - for the best experience *right-click* the above links and open in a new browser tab."
-          }
-        },
         "36858a61-4c15-4787-84e2-e6e66678d5d5": {
           "class": "extras.NoteWidget",
           "color": "blue",
           "title": "Welcome to NetBox Cloud",
           "config": {
-            "content": "# Welcome to Your NetBox Cloud Trial\n\nWhether you're a newcomer to NetBox, a seasoned pro, or looking for admin features, we've got your back! \n\nDon't hesitate to seek guidance - we're here to assist you every step of the way. Just drop us an email at [support@netboxlabs.com](mailto:support@netboxlabs.com) whenever you need a helping hand :)"
+            "content": "# Welcome to Your NetBox Cloud Trial\n\nWhether you're a newcomer to NetBox or already a NetBox Hero, we are here to assist you every step of the way.  Drop us an [email](mailto:support@netboxlabs.com) if you need a helping hand :)\n\n\ud83d\udca1 Pro Tip** - for the best experience *right-click* on the links below to open in a new browser tab."
+          }
+        },
+        "86f776f1-5654-4343-8bb4-79d9cb6b7059": {
+          "class": "extras.NoteWidget",
+          "color": "green",
+          "title": "Latest NetBox Features",
+          "config": {
+            "content": "##Latest NetBox Features\n\n#####\ud83c\udf1f Provisioning\n\n-  **Config Contexts and Templates** - [Learn more](https://github.com/netboxlabs/guided-trial/blob/develop/Network-Automation/explore-provisioning.md). \n- **View a rendered device configuration** - Search for device *AUSYD01-SW-1* and click on the *Render Config* tab. \n- **Render device configurations via REST API** - [Try it](https://github.com/netboxlabs/guided-trial/blob/develop/Network-Automation/render-config-api.md).\n\n#####\ud83c\udf1f Integrations\n\n- **Work with Remote Data Sources** - Click on *Operations > Data Sources* to get started.\n\n#####\ud83c\udf1f User Administration\n\n- **Admin UI now in NetBox** - Click on *Admin* to get started."
           }
         },
         "9eefad8c-df47-4152-a3dc-852e1491e3b3": {
           "class": "extras.NoteWidget",
           "color": "black",
-          "title": "NetBox Cloud Administration",
+          "title": "Managing NetBox",
           "config": {
-            "content": "# NetBox Cloud Administration\n\nThe NetBox Labs Console enables you to manage your NetBox Cloud \u2699\ufe0f\n\n- \ud83c\udf1f **Learn how to work with database backups**. See this [guide](https://docs.netboxlabs.com/Administration%20Console/working_with_database_backups/) to get started. \n- **\ud83c\udf1f Learn how to apply an IP Allow List**. See this [guide](https://docs.netboxlabs.com/Administration%20Console/configuring_ip_allow_lists/) to get started. \n- **\ud83c\udf1f Learn how to upgrade NetBox**. See this [guide](https://docs.netboxlabs.com/Administration%20Console/upgrading-nbc/) to get started.\n\n**Useful links**\n \n- NetBox Labs [Console](https://console.netboxlabs.com/). (*note* - to request console access please email [support](mailto:support@netboxlabs.com))\n- NetBox Cloud [documentation](https://docs.netboxlabs.com/)\n- NetBox Cloud [support](mailto: support@netboxlabs.com)\n\n\ud83d\udca1 Pro Tip** - for the best experience *right-click* the above links and open in a new browser tab."
+            "content": "## Managing NetBox \u2699\ufe0f\n\nThe NetBox Labs Console enables you to manage your NetBox Cloud instance. These are some of the features that are *only available in NetBox Cloud*.\n\n- **Scheduled/on-Demand backups** - [Learn more](https://docs.netboxlabs.com/Administration%20Console/working_with_database_backups/).\n\n- ** Create an IP Allow List** - [Try it](https://docs.netboxlabs.com/Administration%20Console/configuring_ip_allow_lists/).\n\n- ** One-click NetBox upgrades** - [See it in action](https://docs.netboxlabs.com/Administration%20Console/upgrading-nbc/).\n\n#####\ud83c\udf1fAccess the NetBox Labs Console\n\n- Login [here](https://console.netboxlabs.com/). (*note* - to request console access please [email](mailto:support@netboxlabs.com) us)."
           }
         },
         "a9a726b3-7f20-4834-b467-f91f6c3543ea": {
           "class": "extras.NoteWidget",
           "color": "pink",
-          "title": "New to NetBox",
+          "title": "Start Here",
           "config": {
-            "content": "# New to NetBox?\n\nStart with [these guides](https://github.com/netboxlabs/guided-trial) to discover how NetBox can model your network, or explore on your own. \ud83d\ude80\n\n\ud83c\udf1f **DCIM**\n\n- **Learn about Sites and Racks**. Click *Organization > Sites > Amsterdam* to get started.\n- **Learn about Devices**. Click on *Devices > Devices* to get started. \n\n\ud83c\udf1f **IPAM** \n\n- **Learn about Prefixes and IP Addresses**. Click on *IPAM > Prefixes* to get started.\n\n**Want to know more?**\n\n- Take a [short course](https://netboxlabs.com/zerotohero/) to become a **NetBox Hero**\n\n\ud83d\udca1 Pro Tip** - for the best experience *right-click* the above links and open in a new browser tab."
-          }
-        },
-        "c4f0dada-4811-4fdb-b22f-5c5818e348d7": {
-          "class": "extras.RSSFeedWidget",
-          "color": "blue",
-          "title": "NetBox Labs News",
-          "config": {
-            "feed_url": "http://netboxlabs.com/feed",
-            "max_entries": 10,
-            "cache_timeout": 3600
+            "content": "## Start Here! \ud83d\ude80\n\nView step-by-step [guides](https://github.com/netboxlabs/guided-trial) to discover how to model your network, or explore on your own. \n\n#####\ud83c\udf1f IPAM\n\n- **Learn about Prefixes and IP Addresses**. Click on *IPAM > Prefixes* to get started.\n\n#####\ud83c\udf1f DCIM\n\n- **Learn about Sites and Racks**. Click *Organization > Sites > Amsterdam* to get started.\n- **Learn about Devices**. Click on *Devices > Devices* to get started. \n\n#####\ud83c\udf1f APIs\n\n- **NetBox REST and GraphQL APIs** - [Learn more](https://github.com/netboxlabs/guided-trial/blob/develop/Network-Automation/explore-netbox-apis.md). \n- **Create a Webhook** - [Try it](https://github.com/netboxlabs/guided-trial/blob/develop/Network-Automation/add-webhook.md)."
           }
         }
       }
