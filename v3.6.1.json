@@ -27845,23 +27845,6 @@
     }
   },
   {
-    "model": "auth.user",
-    "fields": {
-      "password": "pbkdf2_sha256$600000$gVuht3ifO54t38ZbdpJtc0$8yL5w5qrDDtSit/knQZYp3kk/EdNcRXsGS6gxh69ubI=",
-      "last_login": "2023-09-28T12:56:34.723Z",
-      "is_superuser": true,
-      "username": "admin",
-      "first_name": "",
-      "last_name": "",
-      "email": "admin@example.com",
-      "is_staff": true,
-      "is_active": true,
-      "date_joined": "2023-03-17T12:24:27.266Z",
-      "groups": [],
-      "user_permissions": []
-    }
-  },
-  {
     "model": "extras.dashboard",
     "pk": 67,
     "fields": {
