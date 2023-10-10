@@ -1032,6 +1032,14 @@
     }
   },
   {
+    "model": "sessions.session",
+    "pk": "s0szdpai0g9v3w4b6bnsx57sf6fle5e9",
+    "fields": {
+      "session_data": ".eJxVjEsKwjAUAO-StZT8-kxcegG9QXh9eSFRTKFJQRDvbgsudDszzEsEXHsOa-MllChOwnhx-IUT0p3rbir3aX4Ou-LaC2Evcx0u042pX3l5lNY2cP72f5OMLW-HmKw3SOB0tECamByQBWc8G08aUwQ8OlQkR6uk9xLViJAMJAVaAoj3B3EZOgU:1qptoc:oO7oswtYgsANZRo5ebgr7wp-FOcNszDHP-rGZIeJpDM",
+      "expire_date": "2023-10-23T17:13:10.601Z"
+    }
+  },
+  {
     "model": "core.datasource",
     "pk": 68,
     "fields": {
@@ -21525,7 +21533,7 @@
       "created": "2023-07-25T13:11:09.748Z",
       "last_updated": "2023-08-10T17:03:14.072Z",
       "custom_field_data": {},
-      "user_id": 4,
+      "user_id": 1,
       "ignore_cable_type": "[]",
       "save_coords": false,
       "show_unconnected": false,
@@ -27846,7 +27854,7 @@
   },
   {
     "model": "extras.dashboard",
-    "pk": 67,
+    "pk": 2,
     "fields": {
       "user": [
         "admin"
